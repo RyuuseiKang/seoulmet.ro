@@ -32,6 +32,7 @@ class Main extends React.Component {
         <AutosizeInput
           class="inputBox"
           value={this.state.startStation}
+          style={{fontFamily: 'UD Shin Go Hangul Regular'}}
           placeholder="강남"
           name="startStation"
           onChange={this.updateInputValue.bind(this, 'startStation')}
@@ -42,6 +43,7 @@ class Main extends React.Component {
         <AutosizeInput
           class="inputBox"
           value={this.state.endStation}
+          style={{fontFamily: 'UD Shin Go Hangul Regular'}}
           placeholder="서울"
           name="endStation"
           onChange={this.updateInputValue.bind(this, 'endStation')}
