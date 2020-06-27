@@ -38,7 +38,7 @@ class Main extends React.Component {
           inputStyle={{ borderTopWidth: 0, borderLeftWidth: 0, borderRightWidth: 0, borderBottomWidth: 2.5, borderColor: '#00000000'}}
         />
         <span class="inputTextBlock">역 </span>
-        <FontAwesomeIcon icon={faArrowRight} style={{backgroundColor: '#00000000', paddingLeft: 15, paddingRight: 10, fontSize: 30}}/>
+        <FontAwesomeIcon icon={faArrowRight} style={{backgroundColor: '#00000000', paddingLeft: 15, paddingRight: 15, fontSize: '2rem'}}/>
         <AutosizeInput
           class="inputBox"
           value={this.state.endStation}
